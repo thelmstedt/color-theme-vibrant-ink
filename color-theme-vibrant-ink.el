@@ -6,6 +6,8 @@
 ;; Vibrant Ink Textmate: http://alternateidea.com/blog/articles/2006/1/3/textmate-vibrant-ink-theme-and-prototype-bundle
 ;; Vivid Chalk in emacs-rails Google Groups: http://groups.google.com/group/emacs-on-rails/browse_thread/thread/f99e3707e59eff6d
 
+(require 'color-theme)
+
 (defun color-theme-vibrant-ink ()
   "Emacs Vibrant Ink"
   (interactive)
@@ -56,3 +58,5 @@
 "black"))))
      (underline ((t (:underline t))))
      (minibuffer-prompt ((t (:bold t :foreground "#ff6600")))))))
+
+(provide 'color-theme-vibrant-ink)
